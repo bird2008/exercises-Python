@@ -1,4 +1,4 @@
-password = input("Podaj łańcuch zawierający 16 znaków: ")
+password = input("Podaj łańcuch zawierający 15 lub 16 znaków: ")
 
 if len(password) in {14,15}:
     password = password[::2] 
