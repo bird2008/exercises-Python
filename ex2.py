@@ -24,6 +24,7 @@ try:
     nwd = a
 except ValueError:
     print("Wejście musi być liczbą!")
+    quit()
 
 print("NWD = ", int(nwd))
 print("L_iteracji (I metoda) = {}".format(it1))
