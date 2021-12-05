@@ -14,7 +14,7 @@ except:
 if y <= 600 and y >= 0 and skok <= 10 and skok >= 0:
     while y > 0:
         if skok <= 0:
-            print("Liczba skoków: -1")
+            print("-1")
             quit()
         nls += 1
         y -= skok
@@ -26,4 +26,4 @@ else:
     print("Podaj szerokość łaki(0 - 600) oraz długość skoku(0 - 10)")
     quit()
 
-print("Liczba skoków: {}".format(nls))
+print(nls)
